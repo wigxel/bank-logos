@@ -1,0 +1,67 @@
+[{
+    "abeg": {
+       "name": "Pocket App",
+        "logo": "",
+        "shortName":"ABEG"
+    },
+    "accessbank": {
+        "name": "Access Bank",
+        "logo": "",
+        "shortName":"ACCESS"
+    },
+    "aellacredit": {
+        "name": "Aella Credit Bank",
+        "logo": "",
+        "shortName":"AELLA"
+    },
+    "alat": {
+        "name": "Alat by Wema",
+        "logo": "",
+        "shortName":"ALAT"
+    },
+    "asosavings": {
+        "name": "Aso Savings",
+        "logo": "",
+        "shortName":"ASO"
+    },
+    "axamansard": {
+        "name": "AXA Mansard",
+        "logo": "",
+        "shortName":"ACCESS"
+    },
+    "barter": {
+        "name": "Barter by Flutterwave",
+        "logo": "",
+        "shortName":"BARTER"
+    },
+    "branch": {
+        "name": "Branch Bank",
+        "logo": "",
+        "shortName":"BRANCH"
+    },
+    "brass": {
+        "name": "Brass Bank",
+        "logo": "",
+        "shortName":"BRASS"
+    },
+    "credpal": {
+        "name": "CredPal",
+        "logo": "",
+        "shortName":"CREDPAL"
+    },
+    "ecobank": {
+        "name": "Ecobank",
+        "logo": "",
+        "shortName":"ECOBANK"
+    },
+    "ekondomfb": {
+        "name": "Ekondo Microfinance Bank",
+        "logo": "",
+        "shortName":"EKONDO"
+    },
+    "eyowo": {
+        "name": "Eyowo",
+        "logo": "",
+        "shortName":"EYOWO"
+    }
+}]
