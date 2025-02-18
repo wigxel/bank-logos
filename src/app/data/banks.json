@@ -59,9 +59,84 @@
         "logo": "",
         "shortName":"EKONDO"
     },
-    "eyowo": {
-        "name": "Eyowo",
+    "fidelity": {
+        "name": "Fidelity Bank",
         "logo": "",
-        "shortName":"EYOWO"
+        "shortName":"FIDELITY"
+    },
+    "fincra": {
+        "name": "Fincra Bank",
+        "logo": "",
+        "shortName":"FINCRA"
+    },
+    "firstbank": {
+        "name": "First Bank",
+        "logo": "",
+        "shortName":"FBN"
+    },
+    "fcmb": {
+        "name": "First City Monument Bank",
+        "logo": "",
+        "shortName":"FCMB"
+    },
+    "flutter": {
+        "name": "Flutterwave",
+        "logo": "",
+        "shortName":"FLUTTERWAVE"
+    },
+    "fundall": {
+        "name": "Fudall Bank",
+        "logo": "",
+        "shortName":"FUNDALL"
+    },
+    "fsdh": {
+        "name": "Fsdh Holding",
+        "logo": "",
+        "shortName":"FSDH"
+    },
+    "globus": {
+        "name": "Globus Bank",
+        "logo": "",
+        "shortName":"GLOBUS"
+    },
+    "gtb": {
+        "name": "Guaranty Trust Bank",
+        "logo": "",
+        "shortName":"GTB"
+    },
+    "heritage": {
+        "name": "Heritage Bank",
+        "logo": "",
+        "shortName":"HERITAGE"
+    },
+    "hervest": {
+        "name": "HerVest",
+        "logo": "",
+        "shortName":"HERVEST"
+    },
+    "interswitch": {
+        "name": "Interswitch",
+        "logo": "",
+        "shortName":"INTERSWITCH"
+    },
+    "investmentone": {
+        "name": "Investment One",
+        "logo": "",
+        "shortName":""
+    },
+    "keystone": {
+        "name": "Keystone Bank",
+        "logo": "",
+        "shortName":"KEYSTONE"
+    },
+    "korapay": {
+        "name": "Korapay",
+        "logo": "",
+        "shortName":"KORAYPAY"
+    },
+    "mainstreet": {
+        "name": "Mainstreet Bank",
+        "logo": "",
+        "shortName":"MAINSTREET"
     }
 }]
