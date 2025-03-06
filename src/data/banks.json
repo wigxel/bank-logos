@@ -1,0 +1,334 @@
+[
+  {
+    "abeg": {
+      "name": "Pocket App",
+      "svg": "./svg/Abeg Logo.svg",
+      "png": "./png/Abeg Logo.png",
+      "shortName": "ABEG"
+    },
+    "accessbank": {
+      "name": "Access Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "ACCESS"
+    },
+    "aellacredit": {
+      "name": "Aella Credit Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "AELLA"
+    },
+    "alat": {
+      "name": "Alat by Wema",
+      "svg": "",
+      "png": "",
+      "shortName": "ALAT"
+    },
+    "asosavings": {
+      "name": "Aso Savings",
+      "svg": "",
+      "png": "",
+      "shortName": "ASO"
+    },
+    "axamansard": {
+      "name": "AXA Mansard",
+      "svg": "",
+      "png": "",
+      "shortName": "ACCESS"
+    },
+    "barter": {
+      "name": "Barter by Flutterwave",
+      "svg": "",
+      "png": "",
+      "shortName": "BARTER"
+    },
+    "branch": {
+      "name": "Branch Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "BRANCH"
+    },
+    "brass": {
+      "name": "Brass Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "BRASS"
+    },
+    "credpal": {
+      "name": "CredPal",
+      "svg": "",
+      "png": "",
+      "shortName": "CREDPAL"
+    },
+    "ecobank": {
+      "name": "Ecobank",
+      "svg": "",
+      "png": "",
+      "shortName": "ECOBANK"
+    },
+    "ekondomfb": {
+      "name": "Ekondo Microfinance Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "EKONDO"
+    },
+    "fidelity": {
+      "name": "Fidelity Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "FIDELITY"
+    },
+    "fincra": {
+      "name": "Fincra Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "FINCRA"
+    },
+    "firstbank": {
+      "name": "First Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "FBN"
+    },
+    "fcmb": {
+      "name": "First City Monument Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "FCMB"
+    },
+    "flutter": {
+      "name": "Flutterwave",
+      "svg": "",
+      "png": "",
+      "shortName": "FLUTTERWAVE"
+    },
+    "fundall": {
+      "name": "Fudall Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "FUNDALL"
+    },
+    "fsdh": {
+      "name": "Fsdh Holding",
+      "svg": "",
+      "png": "",
+      "shortName": "FSDH"
+    },
+    "globus": {
+      "name": "Globus Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "GLOBUS"
+    },
+    "gtb": {
+      "name": "Guaranty Trust Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "GTB"
+    },
+    "heritage": {
+      "name": "Heritage Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "HERITAGE"
+    },
+    "hervest": {
+      "name": "HerVest",
+      "svg": "",
+      "png": "",
+      "shortName": "HERVEST"
+    },
+    "interswitch": {
+      "name": "Interswitch",
+      "svg": "",
+      "png": "",
+      "shortName": "INTERSWITCH"
+    },
+    "investmentone": {
+      "name": "Investment One",
+      "svg": "",
+      "png": "",
+      "shortName": ""
+    },
+    "keystone": {
+      "name": "Keystone Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "KEYSTONE"
+    },
+    "korapay": {
+      "name": "Korapay",
+      "svg": "",
+      "png": "",
+      "shortName": "KORAYPAY"
+    },
+    "mainstreet": {
+      "name": "Mainstreet Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "MAINSTREET"
+    },
+    "moniepoint": {
+      "name": "Moniepoint Micro Finance Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "MONIEPOINT MFB"
+    },
+    "opay": {
+      "name": "Opay",
+      "svg": "",
+      "png": "",
+      "shortName": "OPAY"
+    },
+    "okra": {
+      "name": "Okra",
+      "svg": "",
+      "png": "",
+      "shortName": "OKRA"
+    },
+    "onepipe": {
+      "name": "OnePipe",
+      "svg": "",
+      "png": "",
+      "shortName": "ONEPIPE"
+    },
+    "orchestrate": {
+      "name": "Orchestrate",
+      "svg": "",
+      "png": "",
+      "shortName": "ORCHESTRATE"
+    },
+    "paga": {
+      "name": "Paga",
+      "svg": "",
+      "png": "",
+      "shortName": "PAGA"
+    },
+    "paylater": {
+      "name": "Paylater",
+      "svg": "",
+      "png": "",
+      "shortName": "PAYLATER"
+    },
+    "paystack": {
+      "name": "Paystack",
+      "svg": "",
+      "png": "",
+      "shortName": "PAYSTACK"
+    },
+    "pettysave": {
+      "name": "Pettysave",
+      "svg": "",
+      "png": "",
+      "shortName": "PETTYSAVE"
+    },
+    "piggyvest": {
+      "name": "Piggyvest",
+      "svg": "",
+      "png": "",
+      "shortName": "PIGGYVEST"
+    },
+    "polaris": {
+      "name": "Polrais Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "POLARIS"
+    },
+    "quickteller": {
+      "name": "Quickteller",
+      "svg": "",
+      "png": "",
+      "shortName": "QUICKTELLER"
+    },
+    "renmoney": {
+      "name": "Ren Money",
+      "svg": "",
+      "png": "",
+      "shortName": "RENMONEY"
+    },
+    "schoolable": {
+      "name": "Schoolable",
+      "svg": "",
+      "png": "",
+      "shortName": "SCHOOLABLE"
+    },
+    "seampay": {
+      "name": "Seampay",
+      "svg": "",
+      "png": "",
+      "shortName": "SEAMPAY"
+    },
+    "stanbic": {
+      "name": "Stanbic IBTC Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "STANBIC"
+    },
+    "standardchartered": {
+      "name": "Standard Chartered Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "STANDARD"
+    },
+    "sterling": {
+      "name": "Sterling Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "STERLING"
+    },
+    "sycamore": {
+      "name": "sycamore",
+      "svg": "",
+      "png": "",
+      "shortName": "SYCAMORE"
+    },
+    "thankucash": {
+      "name": "ThankUCash",
+      "svg": "",
+      "png": "",
+      "shortName": "THANKUCASH"
+    },
+    "union": {
+      "name": "Union Bank Nigeria",
+      "svg": "",
+      "png": "",
+      "shortName": "UNION"
+    },
+    "uba": {
+      "name": "United Bank for Africa",
+      "svg": "",
+      "png": "",
+      "shortName": "UBA"
+    },
+    "ventures": {
+      "name": "Ventures Platform",
+      "svg": "",
+      "png": "",
+      "shortName": "VENTURES"
+    },
+    "verifi": {
+      "name": "Verifi",
+      "svg": "",
+      "png": "",
+      "shortName": "VERIFI"
+    },
+    "wallets": {
+      "name": "wallets Africa",
+      "svg": "",
+      "png": "",
+      "shortName": "WALLETS"
+    },
+    "wemabank": {
+      "name": "Wema Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "WEMA"
+    },
+    "zenithbank": {
+      "name": "Zenith Bank",
+      "svg": "",
+      "png": "",
+      "shortName": "Zenith"
+    }
+  }
+]
