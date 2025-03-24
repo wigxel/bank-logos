@@ -6,10 +6,12 @@ import { useState } from "react";
 export default function Home() {
   // Convert Json Object to Array
   const bankList = Object.keys(banks).map((key) => banks[key]);
-  // console.log(bankList);
-
+  
   const [search, setSearch] = useState("");
-  console.log(search);
+  
+  //Filter the banks based on the search input
+  const filteredBanks = bankList.filter((bank) => bank.name.toLowerCase().includes(search.toLowerCase()));
+
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <div className="p-4 justify-items-center">
@@ -23,14 +25,19 @@ export default function Home() {
         </div>
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {bankList.filter((bank) => bank.name.toLowerCase().includes(search.toLowerCase())).map((bank, index) => (
-          <div
-            key={index}
-            className="flex flex-col items-center p-4 border border-gray-200 rounded-lg"
-          >
-            <h2 className="text-md font-semibold">{bank.name}</h2>
+        {filteredBanks.length > 0 ? (
+          filteredBanks.map((bank, index) => (
+            <div
+              key={index}
+              className="p-4 border border-gray-200 rounded-lg shadow flex flex-col items-center">
+              <h2 className="text-md semi-bold">{bank.name}</h2>
+            </div>  
+          ))
+        ) : (
+          <div className="p-8 text-red-500 col-span-full flex items-center justify-center">
+            <h2 className="text-lg font-meduim">Bank not found</h2>
           </div>
-        ))}
+        )}
       </div>
     </div>
   );
