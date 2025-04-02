@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 //Define folders for PNG and SVG logos
-const pngLogos = path.join(__dirname, '../public/pngLogos');
-const svgLogos = path.join(__dirname, '../public/svgLogos');
+const png = path.join(__dirname, '../public/png');
+const svg = path.join(__dirname, '../public/svg');
 const jsonFilePath = path.join(__dirname, '../src/data/banks.json');
 
 //Function to update JSON file
@@ -25,12 +25,12 @@ const updateJson = (folderType, fileName) => {
 
     // Update the logo field for the corresponding bank entry
     const bankKey = fileName.split(' ')[0].toLowerCase();
-    for (const bank of jsonData) {
-        if (bank[bankKey]) {
+    for (const bank of Object.values(jsonData)) {
+        if (bank.name.toLowerCase() === bankKey) {
             if (folderType === 'png') {
-                bank[bankKey].png = filePath;
+                bank.png = filePath;
             } else if (folderType === 'svg') {
-                bank[bankKey].svg = filePath;
+                bank.svg = filePath;
             }
             break;
         }
@@ -43,7 +43,7 @@ const updateJson = (folderType, fileName) => {
 }
  
 const collection = {};
-for (const file of fs.readdirSync(pngLogos)) {
+for (const file of fs.readdirSync(png)) {
     const [filename, ext] = file.replace(/logo/i, "").trim().split('.');
     const normalized_file_name = [filename.trim(), ext].join('.');
     const bank_name = normalized_file_name.split('.')[0];
@@ -52,24 +52,24 @@ for (const file of fs.readdirSync(pngLogos)) {
     // const abbreviation = bank_name.substring(0, Math.min(4, bank_name.length)).toUpperCase().trim();
 
     collection[prop] = ({
-        name: bank_name,
+        name: bank_name.toUpperCase(),
         // abbreviation: abbreviation,
-        png: `public/pngLogos/${prop}.${ext}`
+        png: `public/png/${prop}.${ext}`
     })
 };
 
-for (const file of fs.readdirSync(svgLogos)) {
+for (const file of fs.readdirSync(svg)) {
     const [filename, ext] = file.replace(/logo/i, "").trim().split('.');
     const normalized_file_name = [filename.trim(), ext].join('.');
     const bank_name = normalized_file_name.split('.')[0];
 
     const prop = bank_name.split(' ').join('_').toLowerCase();
     if (collection[prop]) {
-        collection[prop].svg = `public/svgLogos/${prop}.${ext}`;
+        collection[prop].svg = `public/svg/${prop}.${ext}`;
     } else
     collection[prop] = ({
-        name: bank_name,
-        svg: `public/svgLogos/${prop}.${ext}`
+        name: bank_name.toUpperCase().replace(/_/g, ' '),
+        svg: `public/svg/${prop}.${ext}`
     })
 }
 
@@ -89,7 +89,7 @@ const watchFolder = (folderPath, folderType) => {
 };
 
 //start watching both folders
-watchFolder(pngLogos, 'png');
-watchFolder(svgLogos, 'svg');
+watchFolder(png, 'png');
+watchFolder(svg, 'svg');
 
-console.log(`Watching for changes in ${pngLogos} and ${svgLogos}`);
+console.log(`Watching for changes in ${png} and ${svg}`);
