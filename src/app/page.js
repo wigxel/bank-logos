@@ -14,6 +14,7 @@ export default function Home() {
   const filteredBanks = bankList.filter((bank) =>
     bank.name.toLowerCase().includes(search.toLowerCase())
   );
+  const bankLength = filteredBanks.length;
 
   return (
     <div className=" border border-gray-800 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -27,11 +28,20 @@ export default function Home() {
         ></input>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-l border-gray-300">
-        
+      <div
+        className={`grid grid-cols-1 sm:grid-cols-2 ${
+          bankLength < 2
+            ? "lg:grid-cols-1"
+            : bankLength < 3
+            ? "lg:grid-cols-2"
+            : "lg:grid-cols-3 "
+        } border-l border-t border-gray-300`}
+      >
         {filteredBanks.length > 0 ? (
-          filteredBanks.map((bank, index) => (
-            // Display the bank name and logo in a grid layout
+          filteredBanks.map((bank, index) => {
+
+            return (
+              // Display the bank name and logo in a grid layout
               <div
                 key={index}
                 className="p-4 border-r border-b border-gray-300 flex flex-col items-center"
@@ -46,10 +56,10 @@ export default function Home() {
 
                 <h2 className="text-md font-semibold">{bank.name}</h2>
               </div>
-    
-          ))
+            );
+          })
         ) : (
-          <div className="p-8 text-red-500 col-span-full flex items-center justify-center">
+          <div className="p-8 text-red-500 col-span-full flex items-center justify-center border-b border-r border-gray-300">
             <h2 className="text-lg font-medium">Bank not found</h2>
           </div>
         )}

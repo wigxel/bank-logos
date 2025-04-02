@@ -3,6 +3,10 @@
     "name": "ABEG",
     "svg": "public/svg/abeg.svg"
   },
+  "access_bank": {
+    "name": "ACCESS BANK",
+    "svg": "public/svg/access_bank.svg"
+  },
   "aella_credit": {
     "name": "AELLA CREDIT",
     "svg": "public/svg/aella_credit.svg"
@@ -11,8 +15,208 @@
     "name": "ALAT",
     "svg": "public/svg/alat.svg"
   },
+  "aso_savings": {
+    "name": "ASO SAVINGS",
+    "svg": "public/svg/aso_savings.svg"
+  },
   "axa_mansard": {
     "name": "AXA MANSARD",
     "svg": "public/svg/axa_mansard.svg"
+  },
+  "barter": {
+    "name": "BARTER",
+    "svg": "public/svg/barter.svg"
+  },
+  "branch": {
+    "name": "BRANCH",
+    "svg": "public/svg/branch.svg"
+  },
+  "brass": {
+    "name": "BRASS",
+    "svg": "public/svg/brass.svg"
+  },
+  "cowrywise": {
+    "name": "COWRYWISE",
+    "svg": "public/svg/cowrywise.svg"
+  },
+  "credpal": {
+    "name": "CREDPAL",
+    "svg": "public/svg/credpal.svg"
+  },
+  "ecobank": {
+    "name": "ECOBANK",
+    "svg": "public/svg/ecobank.svg"
+  },
+  "ekondo_mfb": {
+    "name": "EKONDO MFB",
+    "svg": "public/svg/ekondo_mfb.svg"
+  },
+  "eyowo": {
+    "name": "EYOWO",
+    "svg": "public/svg/eyowo.svg"
+  },
+  "fcmb_bank": {
+    "name": "FCMB BANK",
+    "svg": "public/svg/fcmb_bank.svg"
+  },
+  "fidelity": {
+    "name": "FIDELITY",
+    "svg": "public/svg/fidelity.svg"
+  },
+  "fincra": {
+    "name": "FINCRA",
+    "svg": "public/svg/fincra.svg"
+  },
+  "first_bank": {
+    "name": "FIRST BANK",
+    "svg": "public/svg/first_bank.svg"
+  },
+  "flutterwave": {
+    "name": "FLUTTERWAVE",
+    "svg": "public/svg/flutterwave.svg"
+  },
+  "fsdh_bank": {
+    "name": "FSDH BANK",
+    "svg": "public/svg/fsdh_bank.svg"
+  },
+  "fundall": {
+    "name": "FUNDALL",
+    "svg": "public/svg/fundall.svg"
+  },
+  "globus_bank": {
+    "name": "GLOBUS BANK",
+    "svg": "public/svg/globus_bank.svg"
+  },
+  "gtb_bank": {
+    "name": "GTB BANK",
+    "svg": "public/svg/gtb_bank.svg"
+  },
+  "heritage_bank": {
+    "name": "HERITAGE BANK",
+    "svg": "public/svg/heritage_bank.svg"
+  },
+  "hervest": {
+    "name": "HERVEST",
+    "svg": "public/svg/hervest.svg"
+  },
+  "interswitch": {
+    "name": "INTERSWITCH",
+    "svg": "public/svg/interswitch.svg"
+  },
+  "investment_one": {
+    "name": "INVESTMENT ONE",
+    "svg": "public/svg/investment_one.svg"
+  },
+  "keystone": {
+    "name": "KEYSTONE",
+    "svg": "public/svg/keystone.svg"
+  },
+  "korapay": {
+    "name": "KORAPAY",
+    "svg": "public/svg/korapay.svg"
+  },
+  "kuda_bank": {
+    "name": "KUDA BANK",
+    "svg": "public/svg/kuda_bank.svg"
+  },
+  "mainstreet_bank": {
+    "name": "MAINSTREET BANK",
+    "svg": "public/svg/mainstreet_bank.svg"
+  },
+  "moniepoint": {
+    "name": "MONIEPOINT",
+    "svg": "public/svg/moniepoint.svg"
+  },
+  "okra": {
+    "name": "OKRA",
+    "svg": "public/svg/okra.svg"
+  },
+  "onepipe": {
+    "name": "ONEPIPE",
+    "svg": "public/svg/onepipe.svg"
+  },
+  "opay": {
+    "name": "OPAY",
+    "svg": "public/svg/opay.svg"
+  },
+  "orchestrate": {
+    "name": "ORCHESTRATE",
+    "svg": "public/svg/orchestrate.svg"
+  },
+  "paga": {
+    "name": "PAGA",
+    "svg": "public/svg/paga.svg"
+  },
+  "pettysave": {
+    "name": "PETTYSAVE",
+    "svg": "public/svg/pettysave.svg"
+  },
+  "piggyvest": {
+    "name": "PIGGYVEST",
+    "svg": "public/svg/piggyvest.svg"
+  },
+  "polaris_bank": {
+    "name": "POLARIS BANK",
+    "svg": "public/svg/polaris_bank.svg"
+  },
+  "ren_money": {
+    "name": "REN MONEY",
+    "svg": "public/svg/ren_money.svg"
+  },
+  "schoolable": {
+    "name": "SCHOOLABLE",
+    "svg": "public/svg/schoolable.svg"
+  },
+  "seampay": {
+    "name": "SEAMPAY",
+    "svg": "public/svg/seampay.svg"
+  },
+  "stanbic_ibtc": {
+    "name": "STANBIC IBTC",
+    "svg": "public/svg/stanbic_ibtc.svg"
+  },
+  "standard_chartered": {
+    "name": "STANDARD CHARTERED",
+    "svg": "public/svg/standard_chartered.svg"
+  },
+  "sterling_bank": {
+    "name": "STERLING BANK",
+    "svg": "public/svg/sterling_bank.svg"
+  },
+  "sycamore": {
+    "name": "SYCAMORE",
+    "svg": "public/svg/sycamore.svg"
+  },
+  "thankucash": {
+    "name": "THANKUCASH",
+    "svg": "public/svg/thankucash.svg"
+  },
+  "uba": {
+    "name": "UBA",
+    "svg": "public/svg/uba.svg"
+  },
+  "union_bank": {
+    "name": "UNION BANK",
+    "svg": "public/svg/union_bank.svg"
+  },
+  "ventures_platform": {
+    "name": "VENTURES PLATFORM",
+    "svg": "public/svg/ventures_platform.svg"
+  },
+  "verifi": {
+    "name": "VERIFI",
+    "svg": "public/svg/verifi.svg"
+  },
+  "wallets_africa": {
+    "name": "WALLETS AFRICA",
+    "svg": "public/svg/wallets_africa.svg"
+  },
+  "wema_bank": {
+    "name": "WEMA BANK",
+    "svg": "public/svg/wema_bank.svg"
+  },
+  "zenith_bank": {
+    "name": "ZENITH BANK",
+    "svg": "public/svg/zenith_bank.svg"
   }
 }
