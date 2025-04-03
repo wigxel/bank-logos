@@ -36,11 +36,11 @@ export default function Home() {
         //     ? "lg:grid-cols-2"
         //     : "lg:grid-cols-3 "
         // } border-l border-t border-gray-300`}
-        className="w-full overflow-hidden"
+        className="w-fit"
       >
         {filteredBanks.length > 0 ? (
           <div >
-            <div className="grid grid-cols-3 auto-cols-fr grid-flow-row border-l border-t border-gray-300">
+            <div className="grid  border-l border-t border-gray-300 banks ">
   
             {filteredBanks.map((bank, index) => {
 
@@ -48,7 +48,7 @@ export default function Home() {
               // Display the bank name and logo in a grid layout
               <div
                 key={index}
-                className="pt-16 pb-24 border-r border-b border-gray-300 flex flex-col items-center"
+                className="pt-16 pb-24 min-w-64 border-r border-b border-gray-300 flex flex-col items-center grid-item"
               >
                 <Image
                   src={bank.svg?.replace("public", "")}
