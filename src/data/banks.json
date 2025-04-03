@@ -1,222 +1,277 @@
 {
   "abeg": {
     "name": "ABEG",
+    "png": "public/png/abeg.png",
     "svg": "public/svg/abeg.svg"
   },
-  "access_bank": {
-    "name": "ACCESS BANK",
-    "svg": "public/svg/access_bank.svg"
+  "access": {
+    "name": "ACCESS",
+    "png": "public/png/access.png",
+    "svg": "public/svg/access.svg"
   },
   "aella_credit": {
     "name": "AELLA CREDIT",
+    "png": "public/png/aella_credit.png",
     "svg": "public/svg/aella_credit.svg"
   },
   "alat": {
     "name": "ALAT",
+    "png": "public/png/alat.png",
     "svg": "public/svg/alat.svg"
   },
   "aso_savings": {
     "name": "ASO SAVINGS",
+    "png": "public/png/aso_savings.png",
     "svg": "public/svg/aso_savings.svg"
   },
   "axa_mansard": {
     "name": "AXA MANSARD",
+    "png": "public/png/axa_mansard.png",
     "svg": "public/svg/axa_mansard.svg"
   },
   "barter": {
     "name": "BARTER",
+    "png": "public/png/barter.png",
     "svg": "public/svg/barter.svg"
   },
   "branch": {
     "name": "BRANCH",
+    "png": "public/png/branch.png",
     "svg": "public/svg/branch.svg"
   },
   "brass": {
     "name": "BRASS",
+    "png": "public/png/brass.png",
     "svg": "public/svg/brass.svg"
   },
   "cowrywise": {
     "name": "COWRYWISE",
+    "png": "public/png/cowrywise.png",
     "svg": "public/svg/cowrywise.svg"
   },
   "credpal": {
     "name": "CREDPAL",
+    "png": "public/png/credpal.png",
     "svg": "public/svg/credpal.svg"
   },
   "ecobank": {
     "name": "ECOBANK",
+    "png": "public/png/ecobank.svg",
     "svg": "public/svg/ecobank.svg"
   },
   "ekondo_mfb": {
     "name": "EKONDO MFB",
+    "png": "public/png/ekondo_mfb.png",
     "svg": "public/svg/ekondo_mfb.svg"
   },
   "eyowo": {
     "name": "EYOWO",
+    "png": "public/png/eyowo.png",
     "svg": "public/svg/eyowo.svg"
   },
-  "fcmb_bank": {
-    "name": "FCMB BANK",
-    "svg": "public/svg/fcmb_bank.svg"
+  "fcmb": {
+    "name": "FCMB",
+    "png": "public/png/fcmb.png",
+    "svg": "public/svg/fcmb.svg"
   },
   "fidelity": {
     "name": "FIDELITY",
+    "png": "public/png/fidelity.png",
     "svg": "public/svg/fidelity.svg"
   },
   "fincra": {
     "name": "FINCRA",
+    "png": "public/png/fincra.png",
     "svg": "public/svg/fincra.svg"
   },
   "first_bank": {
     "name": "FIRST BANK",
+    "png": "public/png/first_bank.png",
     "svg": "public/svg/first_bank.svg"
   },
   "flutterwave": {
     "name": "FLUTTERWAVE",
+    "png": "public/png/flutterwave.png",
     "svg": "public/svg/flutterwave.svg"
   },
-  "fsdh_bank": {
-    "name": "FSDH BANK",
-    "svg": "public/svg/fsdh_bank.svg"
+  "fsdh": {
+    "name": "FSDH",
+    "png": "public/png/fsdh.png",
+    "svg": "public/svg/fsdh.svg"
   },
   "fundall": {
     "name": "FUNDALL",
+    "png": "public/png/fundall.png",
     "svg": "public/svg/fundall.svg"
   },
-  "globus_bank": {
-    "name": "GLOBUS BANK",
-    "svg": "public/svg/globus_bank.svg"
+  "globus": {
+    "name": "GLOBUS",
+    "png": "public/png/globus.png",
+    "svg": "public/svg/globus.svg"
   },
-  "gtb_bank": {
-    "name": "GTB BANK",
-    "svg": "public/svg/gtb_bank.svg"
+  "gtb": {
+    "name": "GTB",
+    "png": "public/png/gtb.png",
+    "svg": "public/svg/gtb.svg"
   },
-  "heritage_bank": {
-    "name": "HERITAGE BANK",
-    "svg": "public/svg/heritage_bank.svg"
+  "heritage": {
+    "name": "HERITAGE",
+    "png": "public/png/heritage.png",
+    "svg": "public/svg/heritage.svg"
   },
   "hervest": {
     "name": "HERVEST",
+    "png": "public/png/hervest.png",
     "svg": "public/svg/hervest.svg"
   },
   "interswitch": {
     "name": "INTERSWITCH",
+    "png": "public/png/interswitch.png",
     "svg": "public/svg/interswitch.svg"
   },
   "investment_one": {
     "name": "INVESTMENT ONE",
+    "png": "public/png/investment_one.png",
     "svg": "public/svg/investment_one.svg"
   },
   "keystone": {
     "name": "KEYSTONE",
+    "png": "public/png/keystone.png",
     "svg": "public/svg/keystone.svg"
   },
   "korapay": {
     "name": "KORAPAY",
+    "png": "public/png/korapay.png",
     "svg": "public/svg/korapay.svg"
   },
-  "kuda_bank": {
-    "name": "KUDA BANK",
-    "svg": "public/svg/kuda_bank.svg"
+  "kuda": {
+    "name": "KUDA",
+    "png": "public/png/kuda.png",
+    "svg": "public/svg/kuda.svg"
   },
-  "mainstreet_bank": {
-    "name": "MAINSTREET BANK",
-    "svg": "public/svg/mainstreet_bank.svg"
+  "mainstreet": {
+    "name": "MAINSTREET",
+    "png": "public/png/mainstreet.png",
+    "svg": "public/svg/mainstreet.svg"
   },
   "moniepoint": {
     "name": "MONIEPOINT",
+    "png": "public/png/moniepoint.png",
     "svg": "public/svg/moniepoint.svg"
   },
   "okra": {
     "name": "OKRA",
+    "png": "public/png/okra.png",
     "svg": "public/svg/okra.svg"
   },
   "onepipe": {
     "name": "ONEPIPE",
+    "png": "public/png/onepipe.png",
     "svg": "public/svg/onepipe.svg"
   },
   "opay": {
     "name": "OPAY",
+    "png": "public/png/opay.png",
     "svg": "public/svg/opay.svg"
   },
   "orchestrate": {
     "name": "ORCHESTRATE",
+    "png": "public/png/orchestrate.png",
     "svg": "public/svg/orchestrate.svg"
   },
   "paga": {
     "name": "PAGA",
+    "png": "public/png/paga.png",
     "svg": "public/svg/paga.svg"
   },
   "pettysave": {
     "name": "PETTYSAVE",
+    "png": "public/png/pettysave.png",
     "svg": "public/svg/pettysave.svg"
   },
   "piggyvest": {
     "name": "PIGGYVEST",
+    "png": "public/png/piggyvest.png",
     "svg": "public/svg/piggyvest.svg"
   },
-  "polaris_bank": {
-    "name": "POLARIS BANK",
-    "svg": "public/svg/polaris_bank.svg"
+  "polaris": {
+    "name": "POLARIS",
+    "png": "public/png/polaris.png",
+    "svg": "public/svg/polaris.svg"
   },
   "ren_money": {
     "name": "REN MONEY",
+    "png": "public/png/ren_money.png",
     "svg": "public/svg/ren_money.svg"
   },
   "schoolable": {
     "name": "SCHOOLABLE",
+    "png": "public/png/schoolable.png",
     "svg": "public/svg/schoolable.svg"
   },
   "seampay": {
     "name": "SEAMPAY",
+    "png": "public/png/seampay.png",
     "svg": "public/svg/seampay.svg"
   },
   "stanbic_ibtc": {
     "name": "STANBIC IBTC",
+    "png": "public/png/stanbic_ibtc.svg",
     "svg": "public/svg/stanbic_ibtc.svg"
   },
   "standard_chartered": {
     "name": "STANDARD CHARTERED",
+    "png": "public/png/standard_chartered.png",
     "svg": "public/svg/standard_chartered.svg"
   },
-  "sterling_bank": {
-    "name": "STERLING BANK",
-    "svg": "public/svg/sterling_bank.svg"
+  "sterling": {
+    "name": "STERLING",
+    "png": "public/png/sterling.png",
+    "svg": "public/svg/sterling.svg"
   },
   "sycamore": {
     "name": "SYCAMORE",
+    "png": "public/png/sycamore.png",
     "svg": "public/svg/sycamore.svg"
   },
   "thankucash": {
     "name": "THANKUCASH",
+    "png": "public/png/thankucash.png",
     "svg": "public/svg/thankucash.svg"
   },
   "uba": {
     "name": "UBA",
+    "png": "public/png/uba.png",
     "svg": "public/svg/uba.svg"
   },
-  "union_bank": {
-    "name": "UNION BANK",
-    "svg": "public/svg/union_bank.svg"
+  "union": {
+    "name": "UNION",
+    "png": "public/png/union.png",
+    "svg": "public/svg/union.svg"
   },
   "ventures_platform": {
     "name": "VENTURES PLATFORM",
+    "png": "public/png/ventures_platform.png",
     "svg": "public/svg/ventures_platform.svg"
   },
   "verifi": {
     "name": "VERIFI",
+    "png": "public/png/verifi.png",
     "svg": "public/svg/verifi.svg"
   },
   "wallets_africa": {
     "name": "WALLETS AFRICA",
+    "png": "public/png/wallets_africa.png",
     "svg": "public/svg/wallets_africa.svg"
   },
-  "wema_bank": {
-    "name": "WEMA BANK",
-    "svg": "public/svg/wema_bank.svg"
+  "wema": {
+    "name": "WEMA",
+    "png": "public/png/wema.png",
+    "svg": "public/svg/wema.svg"
   },
-  "zenith_bank": {
-    "name": "ZENITH BANK",
-    "svg": "public/svg/zenith_bank.svg"
+  "zenith": {
+    "name": "ZENITH",
+    "png": "public/png/zenith.png",
+    "svg": "public/svg/zenith.svg"
   }
 }

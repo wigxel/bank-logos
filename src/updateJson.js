@@ -52,7 +52,7 @@ for (const file of fs.readdirSync(png)) {
     // const abbreviation = bank_name.substring(0, Math.min(4, bank_name.length)).toUpperCase().trim();
 
     collection[prop] = ({
-        name: bank_name.toUpperCase(),
+        name: bank_name.toUpperCase().replace(/_/g, " "),
         // abbreviation: abbreviation,
         png: `public/png/${prop}.${ext}`
     })

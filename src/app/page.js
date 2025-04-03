@@ -29,22 +29,26 @@ export default function Home() {
       </div>
 
       <div
-        className={`grid grid-cols-1 sm:grid-cols-2 ${
-          bankLength < 2
-            ? "lg:grid-cols-1"
-            : bankLength < 3
-            ? "lg:grid-cols-2"
-            : "lg:grid-cols-3 "
-        } border-l border-t border-gray-300`}
+        // className={`grid grid-cols-1 sm:grid-cols-2 ${
+        //   bankLength < 2
+        //     ? "lg:grid-cols-1"
+        //     : bankLength < 3
+        //     ? "lg:grid-cols-2"
+        //     : "lg:grid-cols-3 "
+        // } border-l border-t border-gray-300`}
+        className="w-full overflow-hidden"
       >
         {filteredBanks.length > 0 ? (
-          filteredBanks.map((bank, index) => {
+          <div >
+            <div className="grid grid-cols-3 auto-cols-fr grid-flow-row border-l border-t border-gray-300">
+  
+            {filteredBanks.map((bank, index) => {
 
             return (
               // Display the bank name and logo in a grid layout
               <div
                 key={index}
-                className="p-4 border-r border-b border-gray-300 flex flex-col items-center"
+                className="pt-16 pb-24 border-r border-b border-gray-300 flex flex-col items-center"
               >
                 <Image
                   src={bank.svg?.replace("public", "")}
@@ -57,13 +61,18 @@ export default function Home() {
                 <h2 className="text-md font-semibold">{bank.name}</h2>
               </div>
             );
-          })
+          })}
+
+            </div>
+          </div>
+
         ) : (
-          <div className="p-8 text-red-500 col-span-full flex items-center justify-center border-b border-r border-gray-300">
+          <div className="p-16 text-red-500 flex items-center justify-center border border-gray-300">
             <h2 className="text-lg font-medium">Bank not found</h2>
           </div>
         )}
       </div>
+
     </div>
   );
 }
