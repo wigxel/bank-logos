@@ -5,7 +5,8 @@ export default defineSchema({
   bankLogos: defineTable(
     v.object({
       name: v.string(),
-      logoUrl: v.string(),
+      png: v.string(),
+      svg: v.string(),
       createdAt: v.number(),
     })
   ),
