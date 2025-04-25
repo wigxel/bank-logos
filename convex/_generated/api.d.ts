@@ -14,7 +14,6 @@ import type {
   FunctionReference,
 } from "convex/server";
 import type * as functions_bankUpload from "../functions/bankUpload.js";
-import type * as uploadBanks from "../uploadBanks.js";
 
 /**
  * A utility for referencing Convex functions in your app's API.
@@ -26,7 +25,6 @@ import type * as uploadBanks from "../uploadBanks.js";
  */
 declare const fullApi: ApiFromModules<{
   "functions/bankUpload": typeof functions_bankUpload;
-  uploadBanks: typeof uploadBanks;
 }>;
 export declare const api: FilterApi<
   typeof fullApi,

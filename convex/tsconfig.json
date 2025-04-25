@@ -20,6 +20,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["./**/*"],
+  "include": ["./**/*", "../src/scripts/uploadBanks.ts"],
   "exclude": ["./_generated"]
 }
